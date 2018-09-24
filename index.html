@@ -11,9 +11,9 @@
         <link crossorigin="anonymous" href=
         "https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity=
         "sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel=
-        "stylesheet">
+        rel="stylesheet"> 
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="images/favicon.png" href="images/favicon.png" sizes="16x16">
         <link href="screen.css" rel="stylesheet">
         <title>
             Tastyyy-Home
@@ -21,13 +21,14 @@
     </head>
     <body class="text-center">
         <header class=
-        "border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4 bg-purple-lightest font-serif ">
+        "border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4 bg-purple-lightest ">
             <!-- Logo text or image -->
 
-            <div class="flex items-center justify-between mb-4 md:mb-0">
+            <div class="flex items-center justify-between mb-4 md:mb-0 ">
                 <h1 class="leading-none text-2xl text-grey-darkest">
-                    <a class="no-underline text-grey-darkest hover:text-pink"
+                    <a class="no-underline text-grey-darkest hover:text-pink text-3xl font-serif"
                     href="#">Tastyyy</a>
+                    <i class="fas fa-utensils"></i>
                 </h1>
                
             </div>
@@ -38,19 +39,19 @@
                 <ul class="list-reset md:flex md:items-center">
                     <li class="md:ml-4">
                         <a class=
-                        "block no-underline hover:underline py-2 text-grey-darkest hover:text-pink md:border-none md:p-0"
+                        "block no-underline hover:underline py-2 text-grey-darkest hover:text-pink md:border-none md:p-0 font-serif"
                         href="#">Home</a>
                     </li>
 
                     <li class="md:ml-4">
                         <a class=
-                        "border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-pink md:border-none md:p-0"
+                        "border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-pink md:border-none md:p-0 font-serif"
                         href="#">About</a>
                     </li>
 
                     <li class="md:ml-4">
                         <a class=
-                        "border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-pink md:border-none md:p-0"
+                        "border-t block no-underline hover:underline py-2 text-grey-darkest hover:text-pink md:border-none md:p-0 font-serif"
                         href="#">Contact</a>
                     </li>
                 </ul>
@@ -58,69 +59,97 @@
             <!-- END Global navigation -->
         </header>
 
-        <div class="bg-index ">
+        <div class="bg-index font-serif">
             <div class=
-            "container mx-auto py-6 px-3 md:py-12 md:px-6 bg-purple-lightest font-serif ">
+            "container mx-auto py-6 px-3 md:py-12 md:px-6 rounded-lg leading-loose text-grey-darkest">
                 <h1>
                     Trending Foods
                 </h1>
 
                 <p>
-                    Trending foods near L.A. From a cheeseburger pizza to a
-                    deep fried cupcake, any new and delcious foods reporting to
+                    Los Angeles is very diveresed from its people even to its food. We seek out popular trending foods near all over southern California. From a cheeseburger pizza to a
+                    deep fried cupcake, all new and delcious foods will be tracked and reported to
                     you daily here on Tastyyy.
                 </p>
-
-                <div class="flex flex-wrap mt-12 -mx-3 overflow-hidden">
-                    <div class="my-2 px-2 w-full overflow-hidden md:w-1/3">
-                        <article>
-                            <a href="part1.html"><img alt="avotoast" class=
-                            "blocl h-auto w-full" src=
-                            "images/avotoast.jpg"></a>
-                            <header class="my-2">
-                                <h2 class="text-base mb-4">
-                                    <a class=
-                                    "no-underline text-black hover:text-pink"
-                                    href="part1.html">Why everyone is obsessed
-                                    with Avocado, toast, and sometimes a great
-                                    poached egg?</a>
-                                </h2>
-
-                                <p class="text-base">
-                                    September 10, 2018 Dinette is a small cafe
-                                    with big plates filled of deliciousness.
-                                    They may just have the best avocado toast
-                                    with a poached egg around town. It's right
-                                    by Echo Park in L.A. Prices may vary
-                                    however always afforadable. <a class=
-                                    "no-underline text-black hover:text-pink"
-                                    href="http://dinettela.com">Find out
-                                    locations & Hours Here!
-                                    <p></p></a>
-                                </p>
-                            </header>
-                        </article>
-                    </div>
-
-                    <div class="my-2 px-2 w-full overflow-hidden md:w-1/3">
-                        <a href="part2.html"><img alt="nachos" class=
-                        "blocl h-auto w-full" src="images/img2.jpg"></a>
-                    </div>
-
-                    <div class="my-3 px-3 w-full overflow-hidden md:w-1/3">
-                        <a href="part3.html"><img alt="pizza" class=
-                        "blocl h-auto w-full" src="images/img3.jpg"></a>
-                    </div>
-                </div>
             </div>
-        </div>
-        <footer>
-          <div class="container">
-  <div class="container__item">
-    <form class="form">
-      <input type="email" class="form__field" placeholder="Your E-Mail Address" />
-      <button type="button" class="btn btn--primary btn--inside uppercase">Send</button>
-    </form>
+
+<article class="card">
+  <div class="card__wrapper">
+    <figure class="card__feature">
+      <img src="images/avotoast.jpg" class="card__img" alt="avotoast" width="275" height="240">
+    </figure>
+
+    <div class="card__box">
+      <header class="card__item card__header">
+        <h6 class="card__item card__item--small card__label">Featured</h6>
+        <h2 class="card__item card__item--small card__title">Why everyone is obsessed with avocado?</h2>
+      </header>
+
+      <hr class="card__item card__divider">
+
+      <section class="card__item card__body">
+        <p>Avocado Toast has become a popular dish especially in L.A! By Echo Park is a small cafe named Dinette popular for its avocado toast. But how and why did avocado toast became so popular? Seee why and locations to some popular cafes with avocado toast around L.A </p>
+      </section>
+
+    </div>
+
   </div>
+</article>
+                            <article class="card">
+  <div class="card__wrapper">
+
+    <figure class="card__feature">
+      <img src="images/img1.jpg" class="card__img" alt="burger" width="275" height="240">
+    </figure>
+
+    <div class="card__box">
+
+      <header class="card__item card__header">
+        <h6 class="card__item card__item--small card__label">Featured</h6>
+        <h2 class="card__item card__item--small card__title">New meatless burgers coming near you!</h2>
+      </header>
+
+      <hr class="card__item card__divider">
+
+      <section class="card__item card__body">
+        <p>This new burger will have you believing in something else. The new kind of impossible burger is pure vegan but taste like meat and will have even a carnivore believe it is in fact pure meat. Find out how this burger is made and where to find one near L.A</p>
+      </section>
+
+    </div>
+
+  </div>
+</article>
+
+<article class="card">
+  <div class="card__wrapper">
+
+    <figure class="card__feature">
+      <img src="images/poke.jpg" class="card__img" alt="poke" width="275" height="240">
+    </figure>
+
+    <div class="card__box">
+
+      <header class="card__item card__header">
+        <h6 class="card__item card__item--small card__label">Featured</h6>
+        <h2 class="card__item card__item--small card__title">New poke bowl resturants are opening all over L.A!</h2>
+      </header>
+
+      <hr class="card__item card__divider">
+
+      <section class="card__item card__body">
+        <p> Poke is pronouced: (po-kay), is known for Hawaii's street food and here in L.A is becoming the next new obsession to eat. Check out this new trend now and find out locations all over southern California!</p>
+      </section>
+
+    </div>
+
+  </div>
+</article>
+<footer>
+  <p class="bg-purple-lightest text-grey-darkest text-4xl font-extrabold">Follow Us on Social Media or send us a message below</p>
+ <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+  <p class="bg-purple-lightest text-grey-darkest text-2xl font-extrabold">Contact information: <a class= "bg-purple-lightest text-grey-darkest block no-underline hover:text-pink leading-loose" href="mailto:someone@example.com">tastyyy@gmail.com</a>.</p>
+</footer>
     </body>
 </html>
