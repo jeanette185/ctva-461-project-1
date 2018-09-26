@@ -7,15 +7,15 @@
  * Update the background images to suit
  * your project.
  */
-.bg-header {
-  background: url(https://picsum.photos/1920/1920/?random) center center no-repeat;
+.bg-burger {
+  background: url(images/burgerjoint.jpg) center center no-repeat;
+  background-attachment: fixed;
+}
+.bg-hawaii {
+  background: url(images/hawaii.jpg) center center no-repeat;
   background-attachment: fixed;
 }
 
-.bg-quote {
-  background: url(https://picsum.photos/1600/1600/?random) center center no-repeat;
-  background-attachment: fixed;
-}
 .bg-avocado {
   background: url(images/avo1.jpg) center center no-repeat;
   background-attachment: fixed; 
@@ -61,7 +61,7 @@
 .card {
   width: 275px;
 
-  font-family: 'Playfair Display', serif;
+  font-family: serif;
   text-align: center;
 
   transition: all .125s;
@@ -131,7 +131,7 @@
 .card__label {
   color: #cccccc;
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: serif;
   font-size: 8px;
   text-transform: uppercase;
   letter-spacing: .2em;
@@ -179,7 +179,6 @@ body {
 }
 footer {
   padding-top: 10%;
-  
 }
 .fa {
     padding: 20px;
